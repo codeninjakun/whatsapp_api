@@ -1,6 +1,7 @@
 
 const port =  9000;
 const express = require('express');
+require("dotenv").config();
 
 
 let indexRoutes = require('./routes/index.js');
