@@ -13,9 +13,9 @@ router.get("/",async(req,res) => {
     return new Promise((resolve,reject)=>{
         client.messages
         .create({
-            from: 'whatsapp:+918003939604',
+            from: 'whatsapp:+14155238886',
             body: 'Hello there!',
-            to: 'whatsapp:+916350083642'
+            to: 'whatsapp:+916376652477'
         })
         .then(message => {
             console.log(message.sid);
